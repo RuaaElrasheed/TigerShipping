@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <sarishipping>
+                <active>1</active>
+                <name>Tiger Delivery</name>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>TigerTec\ShipIntegration\Model\Carrier\TigerShipping</model>
+            </sarishipping>
+        </carriers>
+    </default>
+</config>
